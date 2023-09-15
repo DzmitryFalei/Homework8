@@ -30,6 +30,7 @@ public class Main {
 
         int largestLineWithNumbers = 0;
         String lineNumbers = null;
+
         Pattern pattern = Pattern.compile("\\d+");
         Matcher matcher = pattern.matcher(stringTask3);
 
@@ -44,6 +45,7 @@ public class Main {
         System.out.println("Largest number of consecutive digits: " + lineNumbers);
 
         String []words = stringTask3.split("\\s*(\\s|,|!|\\.)\\s*");
+
         String longestWord = null;
         int longestWordLength = 0;
         int longestWordIndex = 0;
